@@ -1,14 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Beautiful Registration Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color:   
+ #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;   
+
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body>
-    <h1>Hello World</h1>
-    <p>This is my first Git-Hub pages.</p>
-    <i>Thank You</i>
-    <i>Kunal Tamang</i>
+<body>   
+
+    <table>
+        <thead>
+            <tr>
+                <th>Registration Number</th>
+                <th>Name</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>REG12345</td>
+                <td>John Doe</td>
+                <td><a href="https://example.com/profile/john_doe">Profile Link</a></td>
+            </tr>
+            <tr>
+                <td>REG67890</td>
+                <td>Jane Smith</td>
+                <td><a href="https://example.com/profile/jane_smith">Profile Link</a></td>
+            </tr>
+            </tbody>
+    </table>
 </body>
 </html>
